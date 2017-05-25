@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css?family=Nunito|Open+Sans');
+
+/*Main Elements*/
+
+* { 
+	margin : 0 ;
+	border: 0;
+	padding: 0;
+}
+
+body { 
+	background-color : #ececec;
+	font: 14px/20px 'Open Sans','sans-serif';
+	color : #000; 
+	margin : 0 ;
+}
+
+p { 
+	line-height: 2.5em  ;
+}	
+
+/*Headers*/
+
+
+
+header.top-header { 
+	background-color : #fff ;
+	height : 120px ; 
+	position : fixed ;
+	top : 0 ;
+	left : 0  ; 
+	width : 100% ;
+}
+
+div.container { 
+	margin-left : 80px;
+	margin-top : 5px;
+}
+
+.logo { 
+	float : left;
+}
+
+#logo { 
+	height : auto;
+	width : 400px ;
+}
+
+header.news-title { 
+	font: 14px/10px 'Nunito';
+}
+
+nav.top-nav { 
+	float:  right ; 
+	padding :45px 20px 20px 0px;
+	margin-right : 30px;
+}
+
+nav.top-nav  > ul > li > a{ 
+	text-align : right;
+	text-decoration:none ;
+	font-weight: bold ; 
+	color : #444 ;	
+}
+
+nav.top-nav > ul { list-style:  none ; }
+
+nav > ul > li { 
+	display : inline-block ; 
+	float : left;
+	padding : 10px	;
+}
+
+nav.top-nav  > ul > li > a:hover { 
+	color : #D97600 ;
+}
+
+.current{ 
+	color : #D97600 ;
+}
+
+nav.navigation-menu { 
+	background-color: #8DC54C    ; 
+	height : 50px ;
+	position:  fixed;  
+	margin-top : 120px;
+	width :100%;
+	color : #fff;
+	font :18px 'Open Sans';
+}
+
+nav.navigation-menu > ul  { 
+	margin-left : 20% ;
+	text-indent: 30px;
+
+}
+
+nav.navigation-menu > ul > li > a{ 
+	padding:  30px 20px  ; 
+	text-indent : 30px;
+	text-align:  center;
+	font-weight:3em;
+	text-decoration : none ;
+	color : #fff ;
+}
+
+
+
+/*Slider*/
+#image-slider { 
+	text-align:  center ; 
+}
+
+
+
+
+
+/*Articles*/
+
